@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WeWager Beta.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF</string>
+				<key>dateExpires</key>
+				<string>10/14/20</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF</string>
+						<key>dateExpires</key>
+						<string>10/14/20</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta.OneSignalNotificationServiceExtension</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>7S7N7BN7YZ</string>
+						<key>get-task-allow</key>
+						<true/>
+						<key>keychain-access-groups</key>
+						<array>
+							<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta.OneSignalNotificationServiceExtension</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<string>OneSignalNotificationServiceExtension.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>a03cabcc-0f6b-4497-9a37-918610af9a90</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: *</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7S7N7BN7YZ</string>
+						<key>name</key>
+						<string>Real Deal Sports Inc.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>7S7N7BN7YZ</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>WeWager Beta.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>eed46ec2-6c45-4f2d-a93c-93b2f56fc1a9</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.realdeal.WeWager-Beta</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>7S7N7BN7YZ</string>
+				<key>name</key>
+				<string>Real Deal Sports Inc.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
