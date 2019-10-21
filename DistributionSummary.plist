@@ -12,11 +12,11 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF</string>
+				<string>49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA</string>
 				<key>dateExpires</key>
-				<string>10/14/20</string>
+				<string>10/20/20</string>
 				<key>type</key>
-				<string>Apple Development</string>
+				<string>Apple Distribution</string>
 			</dict>
 			<key>embeddedBinaries</key>
 			<array>
@@ -28,11 +28,11 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF</string>
+						<string>49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA</string>
 						<key>dateExpires</key>
-						<string>10/14/20</string>
+						<string>10/20/20</string>
 						<key>type</key>
-						<string>Apple Development</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>entitlements</key>
 					<dict>
@@ -41,7 +41,7 @@
 						<key>com.apple.developer.team-identifier</key>
 						<string>7S7N7BN7YZ</string>
 						<key>get-task-allow</key>
-						<true/>
+						<false/>
 						<key>keychain-access-groups</key>
 						<array>
 							<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta.OneSignalNotificationServiceExtension</string>
@@ -52,9 +52,9 @@
 					<key>profile</key>
 					<dict>
 						<key>UUID</key>
-						<string>a03cabcc-0f6b-4497-9a37-918610af9a90</string>
+						<string>a95fbcd8-980c-48d8-8727-da2938036407</string>
 						<key>name</key>
-						<string>iOS Team Provisioning Profile: *</string>
+						<string>iOS Team Ad Hoc Provisioning Profile: *</string>
 					</dict>
 					<key>team</key>
 					<dict>
@@ -70,20 +70,20 @@
 				<key>application-identifier</key>
 				<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta</string>
 				<key>aps-environment</key>
-				<string>development</string>
+				<string>production</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>7S7N7BN7YZ</string>
 				<key>get-task-allow</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>name</key>
 			<string>WeWager Beta.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>eed46ec2-6c45-4f2d-a93c-93b2f56fc1a9</string>
+				<string>9315189c-20d1-42eb-be1f-3ab82a313c06</string>
 				<key>name</key>
-				<string>iOS Team Provisioning Profile: com.realdeal.WeWager-Beta</string>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.realdeal.WeWager-Beta</string>
 			</dict>
 			<key>team</key>
 			<dict>
