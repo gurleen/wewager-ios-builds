@@ -52,7 +52,7 @@
 					<key>profile</key>
 					<dict>
 						<key>UUID</key>
-						<string>a95fbcd8-980c-48d8-8727-da2938036407</string>
+						<string>70ce3e7c-9cc3-4bcc-ba9e-ef5ec770e4bd</string>
 						<key>name</key>
 						<string>iOS Team Ad Hoc Provisioning Profile: *</string>
 					</dict>
@@ -81,7 +81,7 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>9315189c-20d1-42eb-be1f-3ab82a313c06</string>
+				<string>b19132c6-5a24-4330-873a-876e7939af71</string>
 				<key>name</key>
 				<string>iOS Team Ad Hoc Provisioning Profile: com.realdeal.WeWager-Beta</string>
 			</dict>
