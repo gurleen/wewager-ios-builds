@@ -2,11 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>WeWager Beta.ipa</key>
+	<key>Runner.ipa</key>
 	<array>
 		<dict>
 			<key>architectures</key>
 			<array>
+				<string>armv7</string>
 				<string>arm64</string>
 			</array>
 			<key>certificate</key>
@@ -23,6 +24,7 @@
 				<dict>
 					<key>architectures</key>
 					<array>
+						<string>armv7</string>
 						<string>arm64</string>
 					</array>
 					<key>certificate</key>
@@ -34,28 +36,33 @@
 						<key>type</key>
 						<string>Apple Distribution</string>
 					</dict>
-					<key>entitlements</key>
+					<key>name</key>
+					<string>App.framework</string>
+					<key>team</key>
 					<dict>
-						<key>application-identifier</key>
-						<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta.OneSignalNotificationServiceExtension</string>
-						<key>com.apple.developer.team-identifier</key>
+						<key>id</key>
 						<string>7S7N7BN7YZ</string>
-						<key>get-task-allow</key>
-						<false/>
-						<key>keychain-access-groups</key>
-						<array>
-							<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta.OneSignalNotificationServiceExtension</string>
-						</array>
+						<key>name</key>
+						<string>Real Deal Sports Inc.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA</string>
+						<key>dateExpires</key>
+						<string>10/20/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
-					<string>OneSignalNotificationServiceExtension.appex</string>
-					<key>profile</key>
-					<dict>
-						<key>UUID</key>
-						<string>70ce3e7c-9cc3-4bcc-ba9e-ef5ec770e4bd</string>
-						<key>name</key>
-						<string>iOS Team Ad Hoc Provisioning Profile: *</string>
-					</dict>
+					<string>Flutter.framework</string>
 					<key>team</key>
 					<dict>
 						<key>id</key>
@@ -68,22 +75,24 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>7S7N7BN7YZ.com.realdeal.WeWager-Beta</string>
-				<key>aps-environment</key>
-				<string>production</string>
+				<string>7S7N7BN7YZ.com.realdeal.wewager</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>7S7N7BN7YZ</string>
 				<key>get-task-allow</key>
 				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>7S7N7BN7YZ.com.realdeal.wewager</string>
+				</array>
 			</dict>
 			<key>name</key>
-			<string>WeWager Beta.app</string>
+			<string>WeWager.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>b19132c6-5a24-4330-873a-876e7939af71</string>
+				<string>70ce3e7c-9cc3-4bcc-ba9e-ef5ec770e4bd</string>
 				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: com.realdeal.WeWager-Beta</string>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
 			</dict>
 			<key>team</key>
 			<dict>

@@ -29,15 +29,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.realdeal.WeWager-Beta</string>
+				<string>com.realdeal.wewager</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>WeWager-Beta</string>
+				<string>WeWager</string>
 			</dict>
 		</dict>
 	</array>
