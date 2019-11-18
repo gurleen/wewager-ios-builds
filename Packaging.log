@@ -1,412 +1,444 @@
-2019-11-07 22:32:31 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb52bb70490; archive(resolved)='<IDEArchive: 0x7fb52a8dd890>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+2019-11-18 23:22:48 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9999a499f0; archive(resolved)='<IDEArchive: 0x7f999bf52fb0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
 	Chain (13, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x7fb52bb70490; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionProcessingPipelineContext: 0x7fb52910c6b0; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb52b0d0990; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb528da8750; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb525f962d0; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb5273c4090; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb52a7965b0; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb52a5d9c40; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb52b6cccf0; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb52490d4f0; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7fb52a7959d0; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='(null)'>
-	<IDEDistributionContext: 0x7fb52a078040; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='(null)'>
-	<IDEDistributionContext: 0x7fb5247f93e0; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb528b971f0>', team='(null)'>
-	<IDEDistributionContext: 0x7fb52a5b1260; archive = '<IDEArchive: 0x7fb52a8dd890>', distributionMethod='(null)', team='(null)'>
-</IDEDistributionProcessingPipelineContext: 0x7fb52bb70490>
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionCreateDestRootStep
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionCopyItemStep
-2019-11-07 22:32:31 +0000  Running /usr/bin/ditto '-V' '/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app'
-2019-11-07 22:32:31 +0000  >>> Copying /Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app 
-2019-11-07 22:32:31 +0000  copying file ./_CodeSignature/CodeResources ... 
-2019-11-07 22:32:31 +0000  20345 bytes for ./_CodeSignature/CodeResources
-2019-11-07 22:32:31 +0000  copying file ./AppIcon20x20@2x.png ... 
-2019-11-07 22:32:31 +0000  1304 bytes for ./AppIcon20x20@2x.png
-2019-11-07 22:32:31 +0000  copying file ./icon.png ... 
-2019-11-07 22:32:31 +0000  23705 bytes for ./icon.png
+	<IDEDistributionProcessingPipelineContext: 0x7f9999a499f0; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9999e02aa0; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999d2a44c0; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999d33d200; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999d341070; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999b9752b0; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999b956520; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999bf16590; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999cc8e540; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f9998775250; teamID='7S7N7BN7YZ', teamName='Real Deal Sports Inc.', teamType='Company', username='gurleen@twitnit.me', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f999d3125b0; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='(null)'>
+	<IDEDistributionContext: 0x7f999c039290; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='(null)'>
+	<IDEDistributionContext: 0x7f999b94f510; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f999bdacfb0>', team='(null)'>
+	<IDEDistributionContext: 0x7f9997710200; archive = '<IDEArchive: 0x7f999bf52fb0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9999a499f0>
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionCopyItemStep
+2019-11-18 23:22:48 +0000  Running /usr/bin/ditto '-V' '/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app'
+2019-11-18 23:22:48 +0000  >>> Copying /Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app 
+2019-11-18 23:22:48 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-11-18 23:22:48 +0000  21471 bytes for ./_CodeSignature/CodeResources
+2019-11-18 23:22:48 +0000  copying file ./AppIcon20x20@2x.png ... 
+2019-11-18 23:22:48 +0000  1047 bytes for ./AppIcon20x20@2x.png
+copying file ./icon.png ... 
+2019-11-18 23:22:48 +0000  23705 bytes for ./icon.png
 copying file ./AppIcon20x20@3x.png ... 
-2019-11-07 22:32:31 +0000  1883 bytes for ./AppIcon20x20@3x.png
-copying file ./AppIcon29x29.png ... 
-2019-11-07 22:32:31 +0000  1010 bytes for ./AppIcon29x29.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon60x60@2x.png ... 
-2019-11-07 22:32:31 +0000  3364 bytes for ./AppIcon60x60@2x.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon29x29@2x.png ... 
-2019-11-07 22:32:31 +0000  1767 bytes for ./AppIcon29x29@2x.png
+2019-11-18 23:22:48 +0000  1239 bytes for ./AppIcon20x20@3x.png
+2019-11-18 23:22:48 +0000  copying file ./AppIcon29x29.png ... 
+2019-11-18 23:22:48 +0000  993 bytes for ./AppIcon29x29.png
+copying file ./AppIcon60x60@2x.png ... 
+2019-11-18 23:22:48 +0000  2053 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon29x29@2x.png ... 
+2019-11-18 23:22:48 +0000  1238 bytes for ./AppIcon29x29@2x.png
 copying file ./AppIcon40x40@3x.png ... 
-2019-11-07 22:32:31 +0000  3364 bytes for ./AppIcon40x40@3x.png
-2019-11-07 22:32:31 +0000  copying file ./Debug.xcconfig ... 
-2019-11-07 22:32:31 +0000  30 bytes for ./Debug.xcconfig
-2019-11-07 22:32:31 +0000  copying file ./AppIcon29x29~ipad.png ... 
-2019-11-07 22:32:31 +0000  1010 bytes for ./AppIcon29x29~ipad.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon40x40@2x.png ... 
-2019-11-07 22:32:31 +0000  2389 bytes for ./AppIcon40x40@2x.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon29x29@3x.png ... 
-2019-11-07 22:32:31 +0000  2427 bytes for ./AppIcon29x29@3x.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon60x60@3x.png ... 
-2019-11-07 22:32:31 +0000  4812 bytes for ./AppIcon60x60@3x.png
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
-2019-11-07 22:32:31 +0000  923 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
-2019-11-07 22:32:31 +0000  923 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
-2019-11-07 22:32:31 +0000  1831 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
+2019-11-18 23:22:48 +0000  2053 bytes for ./AppIcon40x40@3x.png
+copying file ./Debug.xcconfig ... 
+2019-11-18 23:22:48 +0000  106 bytes for ./Debug.xcconfig
+copying file ./AppIcon29x29~ipad.png ... 
+2019-11-18 23:22:48 +0000  993 bytes for ./AppIcon29x29~ipad.png
+2019-11-18 23:22:48 +0000  copying file ./AppIcon40x40@2x.png ... 
+2019-11-18 23:22:48 +0000  1501 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+2019-11-18 23:22:48 +0000  1620 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon60x60@3x.png ... 
+2019-11-18 23:22:48 +0000  3064 bytes for ./AppIcon60x60@3x.png
+2019-11-18 23:22:48 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:48 +0000  923 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2019-11-18 23:22:48 +0000  923 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-11-18 23:22:48 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:48 +0000  1831 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
 copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
-2019-11-07 22:32:31 +0000  1834 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
-2019-11-07 22:32:31 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
-2019-11-07 22:32:31 +0000  2176 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
-2019-11-07 22:32:31 +0000  2177 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
-2019-11-07 22:32:31 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
-2019-11-07 22:32:31 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
-2019-11-07 22:32:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2019-11-07 22:32:31 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
-2019-11-07 22:32:31 +0000  copying file ./Assets.car ... 
-2019-11-07 22:32:31 +0000  551472 bytes for ./Assets.car
-2019-11-07 22:32:31 +0000  copying file ./AppFrameworkInfo.plist ... 
-2019-11-07 22:32:31 +0000  399 bytes for ./AppFrameworkInfo.plist
-2019-11-07 22:32:31 +0000  copying file ./AppIcon40x40@2x~ipad.png ... 
-2019-11-07 22:32:31 +0000  2389 bytes for ./AppIcon40x40@2x~ipad.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
-2019-11-07 22:32:31 +0000  4121 bytes for ./AppIcon76x76@2x~ipad.png
-2019-11-07 22:32:31 +0000  copying file ./iTunesArtwork@3x.png ... 
-2019-11-07 22:32:31 +0000  39282 bytes for ./iTunesArtwork@3x.png
-2019-11-07 22:32:31 +0000  copying file ./WeWager ... 
-2019-11-07 22:32:31 +0000  177328 bytes for ./WeWager
-2019-11-07 22:32:31 +0000  copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
-2019-11-07 22:32:31 +0000  4539 bytes for ./AppIcon83.5x83.5@2x~ipad.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon29x29@2x~ipad.png ... 
-2019-11-07 22:32:31 +0000  1767 bytes for ./AppIcon29x29@2x~ipad.png
-2019-11-07 22:32:31 +0000  copying file ./AppIcon40x40~ipad.png ... 
-2019-11-07 22:32:31 +0000  1304 bytes for ./AppIcon40x40~ipad.png
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
-2019-11-07 22:32:31 +0000  400112 bytes for ./Frameworks/libswiftObjectiveC.dylib
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
-2019-11-07 22:32:31 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
+2019-11-18 23:22:48 +0000  1832 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-11-18 23:22:48 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-11-18 23:22:48 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-11-18 23:22:48 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:48 +0000  2399 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2019-11-18 23:22:48 +0000  2397 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2019-11-18 23:22:48 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:48 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2019-11-18 23:22:48 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2019-11-18 23:22:48 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-11-18 23:22:48 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Assets.car ... 
+2019-11-18 23:22:48 +0000  600160 bytes for ./Assets.car
+2019-11-18 23:22:48 +0000  copying file ./AppFrameworkInfo.plist ... 
+2019-11-18 23:22:48 +0000  399 bytes for ./AppFrameworkInfo.plist
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2019-11-18 23:22:48 +0000  1501 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2019-11-18 23:22:48 +0000  2499 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./iTunesArtwork@3x.png ... 
+2019-11-18 23:22:48 +0000  39282 bytes for ./iTunesArtwork@3x.png
+2019-11-18 23:22:48 +0000  copying file ./WeWager ... 
+2019-11-18 23:22:48 +0000  177520 bytes for ./WeWager
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2019-11-18 23:22:48 +0000  2746 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+copying file ./AppIcon29x29@2x~ipad.png ... 
+2019-11-18 23:22:48 +0000  1238 bytes for ./AppIcon29x29@2x~ipad.png
+2019-11-18 23:22:48 +0000  copying file ./AppIcon40x40~ipad.png ... 
+2019-11-18 23:22:48 +0000  1047 bytes for ./AppIcon40x40~ipad.png
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2019-11-18 23:22:48 +0000  400112 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2019-11-18 23:22:48 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
 copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
-2019-11-07 22:32:31 +0000  857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
-2019-11-07 22:32:31 +0000  1377376 bytes for ./Frameworks/libswiftDispatch.dylib
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
-2019-11-07 22:32:31 +0000  335280 bytes for ./Frameworks/libswiftCoreFoundation.dylib
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
-2019-11-07 22:32:31 +0000  2084 bytes for ./Frameworks/Flutter.framework/_CodeSignature/CodeResources
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/Flutter.framework/icudtl.dat ... 
-2019-11-07 22:32:31 +0000  883280 bytes for ./Frameworks/Flutter.framework/icudtl.dat
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/Flutter.framework/Flutter ... 
-2019-11-07 22:32:31 +0000  13083232 bytes for ./Frameworks/Flutter.framework/Flutter
+2019-11-18 23:22:48 +0000  857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2019-11-18 23:22:48 +0000  1377376 bytes for ./Frameworks/libswiftDispatch.dylib
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2019-11-18 23:22:48 +0000  335280 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
+2019-11-18 23:22:48 +0000  2084 bytes for ./Frameworks/Flutter.framework/_CodeSignature/CodeResources
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/Flutter.framework/icudtl.dat ... 
+2019-11-18 23:22:48 +0000  883280 bytes for ./Frameworks/Flutter.framework/icudtl.dat
+copying file ./Frameworks/Flutter.framework/Flutter ... 
+2019-11-18 23:22:48 +0000  59605520 bytes for ./Frameworks/Flutter.framework/Flutter
 copying file ./Frameworks/Flutter.framework/Info.plist ... 
-2019-11-07 22:32:31 +0000  963 bytes for ./Frameworks/Flutter.framework/Info.plist
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/_CodeSignature/CodeResources ... 
-2019-11-07 22:32:31 +0000  4132 bytes for ./Frameworks/App.framework/_CodeSignature/CodeResources
-copying file ./Frameworks/App.framework/App ... 
-2019-11-07 22:32:31 +0000  14007680 bytes for ./Frameworks/App.framework/App
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/flutter_assets/LICENSE ... 
-2019-11-07 22:32:31 +0000  734884 bytes for ./Frameworks/App.framework/flutter_assets/LICENSE
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/flutter_assets/AssetManifest.json ... 
-2019-11-07 22:32:31 +0000  229 bytes for ./Frameworks/App.framework/flutter_assets/AssetManifest.json
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/flutter_assets/FontManifest.json ... 
-2019-11-07 22:32:31 +0000  208 bytes for ./Frameworks/App.framework/flutter_assets/FontManifest.json
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf ... 
-2019-11-07 22:32:31 +0000  97680 bytes for ./Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf ... 
-2019-11-07 22:32:31 +0000  134640 bytes for ./Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/flutter_assets/assets/icon.png ... 
-2019-11-07 22:32:31 +0000  25410 bytes for ./Frameworks/App.framework/flutter_assets/assets/icon.png
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/flutter_assets/assets/Avatar.png ... 
-2019-11-07 22:32:31 +0000  135316 bytes for ./Frameworks/App.framework/flutter_assets/assets/Avatar.png
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/App.framework/Info.plist ... 
-2019-11-07 22:32:31 +0000  794 bytes for ./Frameworks/App.framework/Info.plist
-2019-11-07 22:32:31 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
-2019-11-07 22:32:31 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
-copying file ./Frameworks/libswiftFoundation.dylib ... 
-2019-11-07 22:32:31 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
-2019-11-07 22:32:31 +0000  copying file ./AppIcon20x20~ipad.png ... 
-2019-11-07 22:32:31 +0000  531 bytes for ./AppIcon20x20~ipad.png
-copying file ./embedded.mobileprovision ... 
-2019-11-07 22:32:31 +0000  7382 bytes for ./embedded.mobileprovision
-2019-11-07 22:32:31 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
-2019-11-07 22:32:31 +0000  1304 bytes for ./AppIcon20x20@2x~ipad.png
-2019-11-07 22:32:31 +0000  copying file ./Info.plist ... 
-2019-11-07 22:32:31 +0000  1406 bytes for ./Info.plist
-2019-11-07 22:32:31 +0000  copying file ./PkgInfo ... 
-2019-11-07 22:32:31 +0000  8 bytes for ./PkgInfo
-2019-11-07 22:32:31 +0000  copying file ./AppIcon76x76~ipad.png ... 
-2019-11-07 22:32:31 +0000  2357 bytes for ./AppIcon76x76~ipad.png
-2019-11-07 22:32:31 +0000  /usr/bin/ditto exited with 0
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionEmbedProfileStep
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb5288235c0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7fb52a793000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7e3bb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb525c6c4f0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:48 +0000  963 bytes for ./Frameworks/Flutter.framework/Info.plist
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/_CodeSignature/CodeResources ... 
+2019-11-18 23:22:48 +0000  4132 bytes for ./Frameworks/App.framework/_CodeSignature/CodeResources
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/App ... 
+2019-11-18 23:22:48 +0000  14057296 bytes for ./Frameworks/App.framework/App
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/flutter_assets/LICENSE ... 
+2019-11-18 23:22:48 +0000  736544 bytes for ./Frameworks/App.framework/flutter_assets/LICENSE
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/flutter_assets/AssetManifest.json ... 
+2019-11-18 23:22:48 +0000  229 bytes for ./Frameworks/App.framework/flutter_assets/AssetManifest.json
+copying file ./Frameworks/App.framework/flutter_assets/FontManifest.json ... 
+2019-11-18 23:22:48 +0000  208 bytes for ./Frameworks/App.framework/flutter_assets/FontManifest.json
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf ... 
+2019-11-18 23:22:48 +0000  97680 bytes for ./Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf ... 
+2019-11-18 23:22:48 +0000  134640 bytes for ./Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/flutter_assets/assets/icon.png ... 
+2019-11-18 23:22:48 +0000  25410 bytes for ./Frameworks/App.framework/flutter_assets/assets/icon.png
+copying file ./Frameworks/App.framework/flutter_assets/assets/Avatar.png ... 
+2019-11-18 23:22:48 +0000  135316 bytes for ./Frameworks/App.framework/flutter_assets/assets/Avatar.png
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/App.framework/Info.plist ... 
+2019-11-18 23:22:48 +0000  794 bytes for ./Frameworks/App.framework/Info.plist
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2019-11-18 23:22:48 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/shared_preferences.framework/_CodeSignature/CodeResources ... 
+2019-11-18 23:22:48 +0000  1798 bytes for ./Frameworks/shared_preferences.framework/_CodeSignature/CodeResources
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/shared_preferences.framework/shared_preferences ... 
+2019-11-18 23:22:48 +0000  203312 bytes for ./Frameworks/shared_preferences.framework/shared_preferences
+copying file ./Frameworks/shared_preferences.framework/Info.plist ... 
+2019-11-18 23:22:48 +0000  762 bytes for ./Frameworks/shared_preferences.framework/Info.plist
+2019-11-18 23:22:48 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2019-11-18 23:22:48 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
+2019-11-18 23:22:48 +0000  copying file ./AppIcon20x20~ipad.png ... 
+2019-11-18 23:22:48 +0000  917 bytes for ./AppIcon20x20~ipad.png
+2019-11-18 23:22:48 +0000  copying file ./embedded.mobileprovision ... 
+2019-11-18 23:22:48 +0000  7382 bytes for ./embedded.mobileprovision
+2019-11-18 23:22:48 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
+2019-11-18 23:22:48 +0000  1047 bytes for ./AppIcon20x20@2x~ipad.png
+2019-11-18 23:22:48 +0000  copying file ./Info.plist ... 
+2019-11-18 23:22:48 +0000  1406 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2019-11-18 23:22:48 +0000  8 bytes for ./PkgInfo
+2019-11-18 23:22:48 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2019-11-18 23:22:48 +0000  1479 bytes for ./AppIcon76x76~ipad.png
+2019-11-18 23:22:48 +0000  /usr/bin/ditto exited with 0
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999b9af1f0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7f999ccdbd10:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d3351e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d310390; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7fb52a70c8f0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb52cb1b7a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7fb5275dfe40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a20c120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7f999af82010:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999d32e620; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7f999b971e70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9950d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d310390; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7fb52a793b70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='1'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb527757a20; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7b81d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7f999b9aaa70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999b960100; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b961a20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d310390; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb522be82d0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5275d77a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999b9c4550; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999af9fb60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d310390; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb52ca13510; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5235ea220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999af82db0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9513a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b966150; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb52bbf9070; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb528f841e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999b986120; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9b1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b966150; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb52b6ca6c0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7cc740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999b97bae0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999afab770; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b966150; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb526e278a0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52b52a080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb529473120; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999b95aea0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ec40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b966150; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb528f3f1a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb525dcc870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999d32dc00; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ed60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b966150; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionAppThinningPlistStep
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionCompileBitcodeStep
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionCodeSlimmingStep
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionSymbolsStep
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionAppThinningStep
-2019-11-07 22:32:31 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
-2019-11-07 22:32:31 +0000  Processing step: IDEDistributionArchThinningStep
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/App.framework/App' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
-2019-11-07 22:32:31 +0000  Skipping architecture thinning for item "App" because arch "arm64e" wasn't found
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/Flutter.framework/Flutter' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
-2019-11-07 22:32:31 +0000  Skipping architecture thinning for item "Flutter" because arch "arm64e" wasn't found
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
-2019-11-07 22:32:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:31 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib'
-2019-11-07 22:32:32 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
-2019-11-07 22:32:32 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
-2019-11-07 22:32:32 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/WeWager' '-verify_arch' 'arm64e'
-2019-11-07 22:32:32 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
-2019-11-07 22:32:32 +0000  Skipping architecture thinning for item "WeWager" because arch "arm64e" wasn't found
-2019-11-07 22:32:32 +0000  Processing step: IDEDistributionODRStep
-2019-11-07 22:32:32 +0000  Processing step: IDEDistributionStripXattrsStep
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb5288235c0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7fb52a793000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7e3bb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f999b9bd170; bundleID='org.cocoapods.shared-preferences', path='<DVTFilePath:0x7f999d3070b0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d196be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b966150; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7fb52a70c8f0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb52cb1b7a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7fb5275dfe40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a20c120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='org.cocoapods.shared-preferences', executablePath='<DVTFilePath:0x7f999b9533a0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework/shared_preferences'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionSymbolsStep
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionAppThinningStep
+2019-11-18 23:22:48 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-11-18 23:22:48 +0000  Processing step: IDEDistributionArchThinningStep
+2019-11-18 23:22:48 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/App.framework/App' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-11-18 23:22:49 +0000  Skipping architecture thinning for item "App" because arch "arm64e" wasn't found
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/Flutter.framework/Flutter' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-11-18 23:22:49 +0000  Skipping architecture thinning for item "Flutter" because arch "arm64e" wasn't found
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-11-18 23:22:49 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/shared_preferences.framework/shared_preferences' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-11-18 23:22:49 +0000  Skipping architecture thinning for item "shared_preferences" because arch "arm64e" wasn't found
+2019-11-18 23:22:49 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/WeWager' '-verify_arch' 'arm64e'
+2019-11-18 23:22:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-11-18 23:22:49 +0000  Skipping architecture thinning for item "WeWager" because arch "arm64e" wasn't found
+2019-11-18 23:22:49 +0000  Processing step: IDEDistributionODRStep
+2019-11-18 23:22:49 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999b9af1f0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7f999ccdbd10:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d3351e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999acf9070; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7fb52a793b70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='1'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb527757a20; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7b81d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524efbc80; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7f999af82010:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999d32e620; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7f999b971e70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9950d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9b2af0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb522be82d0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5275d77a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52596beb0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7f999b9aaa70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999b960100; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b961a20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d1e1de0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb52ca13510; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5235ea220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999b9c4550; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999af9fb60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b963310; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb52bbf9070; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb528f841e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999af82db0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9513a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999af8eec0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb52b6ca6c0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7cc740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999b986120; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9b1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9ce350; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb526e278a0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52b52a080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999b97bae0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999afab770; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9caf10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb528f3f1a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb525dcc870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999b95aea0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ec40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999cc191e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
-2019-11-07 22:32:32 +0000  Running /usr/bin/xattr '-crs' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app'
-2019-11-07 22:32:32 +0000  /usr/bin/xattr exited with 0
-2019-11-07 22:32:32 +0000  Processing step: IDEDistributionCodesignStep
-2019-11-07 22:32:32 +0000  Entitlements for <IDEDistributionItem: 0x7fb5288235c0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7fb52a793000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7e3bb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524a9cc10; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999d32dc00; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ed60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9633d0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7fb52a70c8f0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f999b9bd170; bundleID='org.cocoapods.shared-preferences', path='<DVTFilePath:0x7f999d3070b0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d196be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d223ff0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='org.cocoapods.shared-preferences', executablePath='<DVTFilePath:0x7f999b9533a0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework/shared_preferences'>', hardenedRuntime='0'>'>
+2019-11-18 23:22:49 +0000  Running /usr/bin/xattr '-crs' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app'
+2019-11-18 23:22:49 +0000  /usr/bin/xattr exited with 0
+2019-11-18 23:22:49 +0000  Processing step: IDEDistributionCodesignStep
+2019-11-18 23:22:49 +0000  Entitlements for <IDEDistributionItem: 0x7f999b9af1f0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7f999ccdbd10:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d3351e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9690d0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7f999af82010:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb5288235c0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7fb52a793000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7e3bb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52752e5e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999b9af1f0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x7f999ccdbd10:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d3351e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9cd830; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7fb52a70c8f0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~vCfkAh
-2019-11-07 22:32:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~vCfkAh' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/App.framework'
-2019-11-07 22:32:32 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/App.framework: replacing existing signature
-2019-11-07 22:32:33 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/App.framework: signed bundle with Mach-O universal (armv7 arm64) [io.flutter.flutter.app]
-2019-11-07 22:32:33 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:33 +0000  Entitlements for <IDEDistributionItem: 0x7fb52cb1b7a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7fb5275dfe40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a20c120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52752e5e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x7f999af82010:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~6aUfmT
+2019-11-18 23:22:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~6aUfmT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/App.framework'
+2019-11-18 23:22:49 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/App.framework: replacing existing signature
+2019-11-18 23:22:50 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/App.framework: signed bundle with Mach-O universal (armv7 arm64) [io.flutter.flutter.app]
+2019-11-18 23:22:50 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:50 +0000  Entitlements for <IDEDistributionItem: 0x7f999d32e620; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7f999b971e70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9950d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999c06de70; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7fb52a793b70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='1'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7f999b9aaa70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb52cb1b7a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7fb5275dfe40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a20c120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52b52bf00; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999d32e620; bundleID='io.flutter.flutter', path='<DVTFilePath:0x7f999b971e70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9950d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d223fe0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7fb52a793b70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='1'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~QH5q7Z
-2019-11-07 22:32:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~QH5q7Z' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/Flutter.framework'
-2019-11-07 22:32:33 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/Flutter.framework: replacing existing signature
-2019-11-07 22:32:33 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/Flutter.framework: signed bundle with Mach-O universal (armv7 arm64) [io.flutter.flutter]
-2019-11-07 22:32:33 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:33 +0000  Entitlements for <IDEDistributionItem: 0x7fb527757a20; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7b81d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52752e5e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x7f999b9aaa70:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~xzN5JZ
+2019-11-18 23:22:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~xzN5JZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/Flutter.framework'
+2019-11-18 23:22:50 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/Flutter.framework: replacing existing signature
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/Flutter.framework: signed bundle with Mach-O universal (armv7 arm64) [io.flutter.flutter]
+2019-11-18 23:22:51 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:51 +0000  Entitlements for <IDEDistributionItem: 0x7f999b960100; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b961a20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999ad98190; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb527757a20; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7b81d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb5248e35a0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999b960100; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b961a20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999af82080; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb528f7c540:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~csJhB6
-2019-11-07 22:32:33 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~csJhB6' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib'
-2019-11-07 22:32:33 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib: replacing existing signature
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
-2019-11-07 22:32:34 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:34 +0000  Entitlements for <IDEDistributionItem: 0x7fb522be82d0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5275d77a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb524efbc80; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f99997a7950:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~lCXLFr
+2019-11-18 23:22:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~lCXLFr' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib'
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2019-11-18 23:22:51 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:51 +0000  Entitlements for <IDEDistributionItem: 0x7f999b9c4550; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999af9fb60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9633e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb522be82d0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5275d77a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52596beb0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999b9c4550; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999af9fb60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999af8eec0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb52a74d430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~ughZgo
-2019-11-07 22:32:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~ughZgo' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
-2019-11-07 22:32:34 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:34 +0000  Entitlements for <IDEDistributionItem: 0x7fb52ca13510; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5235ea220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52752e5e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f999cc9ecc0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~GrlSgs
+2019-11-18 23:22:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~GrlSgs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-11-18 23:22:51 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:51 +0000  Entitlements for <IDEDistributionItem: 0x7f999af82db0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9513a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999bf3b150; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb52ca13510; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb5235ea220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb525b32280; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999af82db0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9513a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9690d0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb52a774430:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~XNRYsc
-2019-11-07 22:32:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~XNRYsc' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
-2019-11-07 22:32:34 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:34 +0000  Entitlements for <IDEDistributionItem: 0x7fb52bbf9070; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb528f841e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52752e5e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f999bce3e60:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~6wl9OT
+2019-11-18 23:22:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~6wl9OT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-11-18 23:22:51 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:51 +0000  Entitlements for <IDEDistributionItem: 0x7f999b986120; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9b1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9633e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb52bbf9070; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb528f841e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb5248e35a0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999b986120; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9b1450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9c1420; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb52a7b2300:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~nV772Q
-2019-11-07 22:32:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~nV772Q' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib'
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
-2019-11-07 22:32:34 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:34 +0000  Entitlements for <IDEDistributionItem: 0x7fb52b6ca6c0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7cc740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52752e5e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f999b997cb0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~G9pq8H
+2019-11-18 23:22:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~G9pq8H' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib'
+2019-11-18 23:22:51 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2019-11-18 23:22:52 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:52 +0000  Entitlements for <IDEDistributionItem: 0x7f999b97bae0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999afab770; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9690d0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb52b6ca6c0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52a7cc740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb525b5b2b0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999b97bae0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999afab770; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9b4b70; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb528f74b40:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~ELNt1c
-2019-11-07 22:32:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~ELNt1c' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib'
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
-2019-11-07 22:32:34 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:34 +0000  Entitlements for <IDEDistributionItem: 0x7fb526e278a0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52b52a080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb525b32280; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f999be37000:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~lnilmB
+2019-11-18 23:22:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~lnilmB' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib'
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2019-11-18 23:22:52 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:52 +0000  Entitlements for <IDEDistributionItem: 0x7f999b95aea0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ec40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9633e0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb526e278a0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb52b52a080; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb529131220; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999b95aea0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ec40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9b4b70; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb52a7b6960:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~OykhtY
-2019-11-07 22:32:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~OykhtY' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib'
-2019-11-07 22:32:34 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
-2019-11-07 22:32:35 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
-2019-11-07 22:32:35 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:35 +0000  Entitlements for <IDEDistributionItem: 0x7fb528f3f1a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb525dcc870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52a79c410; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f999c107ca0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~tbYdQB
+2019-11-18 23:22:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~tbYdQB' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib'
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2019-11-18 23:22:52 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:52 +0000  Entitlements for <IDEDistributionItem: 0x7f999d32dc00; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ed60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999d1e0930; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
 }
-2019-11-07 22:32:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb528f3f1a0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb525dcc870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52596beb0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999d32dc00; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b95ed60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b960a50; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
-), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb52a7df9e0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~UKXLXc
-2019-11-07 22:32:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~UKXLXc' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib'
-2019-11-07 22:32:35 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
-2019-11-07 22:32:35 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
-2019-11-07 22:32:35 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:35 +0000  Entitlements for <IDEDistributionItem: 0x7fb52ca9abc0; bundleID='com.realdeal.wewager', path='<DVTFilePath:0x7fb52b91fba0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb528ab8740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb529131220; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f999af85500:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~cXXIjz
+2019-11-18 23:22:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~cXXIjz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib'
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-11-18 23:22:52 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:52 +0000  Entitlements for <IDEDistributionItem: 0x7f999b9bd170; bundleID='org.cocoapods.shared-preferences', path='<DVTFilePath:0x7f999d3070b0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d196be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999c06de70; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='org.cocoapods.shared-preferences', executablePath='<DVTFilePath:0x7f999b9533a0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework/shared_preferences'>', hardenedRuntime='0'>'>: {
+}
+2019-11-18 23:22:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999b9bd170; bundleID='org.cocoapods.shared-preferences', path='<DVTFilePath:0x7f999d3070b0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999d196be0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b960a50; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='(null)', teamID='7S7N7BN7YZ', identifier='org.cocoapods.shared-preferences', executablePath='<DVTFilePath:0x7f999b9533a0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/Frameworks/shared_preferences.framework/shared_preferences'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~U9UpO9
+2019-11-18 23:22:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~U9UpO9' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/shared_preferences.framework'
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/shared_preferences.framework: replacing existing signature
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app/Frameworks/shared_preferences.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.shared-preferences]
+2019-11-18 23:22:52 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:52 +0000  Entitlements for <IDEDistributionItem: 0x7f999d342020; bundleID='com.realdeal.wewager', path='<DVTFilePath:0x7f999d225390:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9c59a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999bcc7930; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='{
@@ -416,15 +448,15 @@ copying file ./embedded.mobileprovision ...
     "keychain-access-groups" =     (
         "7S7N7BN7YZ.com.realdeal.wewager"
     );
-}', teamID='7S7N7BN7YZ', identifier='com.realdeal.wewager', executablePath='<DVTFilePath:0x7fb528f88d30:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/WeWager'>', hardenedRuntime='0'>'>: {
+}', teamID='7S7N7BN7YZ', identifier='com.realdeal.wewager', executablePath='<DVTFilePath:0x7f999b972d90:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/WeWager'>', hardenedRuntime='0'>'>: {
     "application-identifier" = "7S7N7BN7YZ.com.realdeal.wewager";
     "com.apple.developer.team-identifier" = 7S7N7BN7YZ;
-    "get-task-allow" = 0;
+    "get-task-allow" = 1;
     "keychain-access-groups" =     (
         "7S7N7BN7YZ.com.realdeal.wewager"
     );
 }
-2019-11-07 22:32:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb52ca9abc0; bundleID='com.realdeal.wewager', path='<DVTFilePath:0x7fb52b91fba0:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb528ab8740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb52a742300; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
+2019-11-18 23:22:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7f999d342020; bundleID='com.realdeal.wewager', path='<DVTFilePath:0x7f999d225390:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f999b9c59a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f999b9a1de0; name='Apple Development: Gurleen Singh (F9QCS3Z948)', hash='89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF', serialNumber='7A295F640A332B49', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2019-10-15 21:01:41 +0000''>', entitlements='{
@@ -434,145 +466,152 @@ copying file ./embedded.mobileprovision ...
     "keychain-access-groups" =     (
         "7S7N7BN7YZ.com.realdeal.wewager"
     );
-}', teamID='7S7N7BN7YZ', identifier='com.realdeal.wewager', executablePath='<DVTFilePath:0x7fb528f88d30:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-07/Runner 11-7-19, 5.30 PM.xcarchive/Products/Applications/WeWager.app/WeWager'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~9MborL
-2019-11-07 22:32:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '49D0BF6ADBB2E0B598555882DA71762CF6F5C4FA' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/entitlements~~~9MborL' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app'
-2019-11-07 22:32:35 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app: replacing existing signature
-2019-11-07 22:32:35 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root/Payload/WeWager.app: signed app bundle with Mach-O universal (armv7 arm64) [com.realdeal.wewager]
-2019-11-07 22:32:35 +0000  /usr/bin/codesign exited with 0
-2019-11-07 22:32:35 +0000  Processing step: IDEDistributionZipODRItemStep
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-11-07 22:32:35 +0000  Processing step: IDEDistributionCreateIPAStep
-2019-11-07 22:32:35 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Packages/Runner.ipa'
-2019-11-07 22:32:35 +0000  >>> Copying /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~n4B0a5/Root 
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/_CodeSignature/CodeResources ... 
-2019-11-07 22:32:35 +0000  20345 bytes for ./Payload/WeWager.app/_CodeSignature/CodeResources
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/AppIcon20x20@2x.png ... 
-1304 bytes for ./Payload/WeWager.app/AppIcon20x20@2x.png
+}', teamID='7S7N7BN7YZ', identifier='com.realdeal.wewager', executablePath='<DVTFilePath:0x7f999b972d90:'/Users/gurleen/Library/Developer/Xcode/Archives/2019-11-18/Runner 11-18-19, 6.19 PM.xcarchive/Products/Applications/WeWager.app/WeWager'>', hardenedRuntime='0'>'> to: /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~1jUsgb
+2019-11-18 23:22:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '89E2D4F2E8F081CA02CCBE6D2FB551A29ABA07EF' '--entitlements' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/entitlements~~~1jUsgb' '--preserve-metadata=identifier,flags,runtime' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app'
+2019-11-18 23:22:52 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app: replacing existing signature
+2019-11-18 23:22:53 +0000  /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root/Payload/WeWager.app: signed app bundle with Mach-O universal (armv7 arm64) [com.realdeal.wewager]
+2019-11-18 23:22:53 +0000  /usr/bin/codesign exited with 0
+2019-11-18 23:22:53 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-11-18 23:22:53 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-11-18 23:22:53 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root' '/var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Packages/Runner.ipa'
+2019-11-18 23:22:53 +0000  >>> Copying /var/folders/9w/1qfg1w_j7m3ckqc3_nqv85br0000gn/T/XcodeDistPipeline.~~~K5bT9J/Root 
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/_CodeSignature/CodeResources ... 
+2019-11-18 23:22:53 +0000  21471 bytes for ./Payload/WeWager.app/_CodeSignature/CodeResources
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/AppIcon20x20@2x.png ... 
+1047 bytes for ./Payload/WeWager.app/AppIcon20x20@2x.png
 copying file ./Payload/WeWager.app/icon.png ... 
-2019-11-07 22:32:35 +0000  23705 bytes for ./Payload/WeWager.app/icon.png
-copying file ./Payload/WeWager.app/AppIcon20x20@3x.png ... 
-2019-11-07 22:32:35 +0000  1883 bytes for ./Payload/WeWager.app/AppIcon20x20@3x.png
+2019-11-18 23:22:53 +0000  23705 bytes for ./Payload/WeWager.app/icon.png
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/AppIcon20x20@3x.png ... 
+2019-11-18 23:22:53 +0000  1239 bytes for ./Payload/WeWager.app/AppIcon20x20@3x.png
 copying file ./Payload/WeWager.app/AppIcon29x29.png ... 
-2019-11-07 22:32:35 +0000  1010 bytes for ./Payload/WeWager.app/AppIcon29x29.png
-copying file ./Payload/WeWager.app/AppIcon60x60@2x.png ... 
-2019-11-07 22:32:35 +0000  3364 bytes for ./Payload/WeWager.app/AppIcon60x60@2x.png
+2019-11-18 23:22:53 +0000  993 bytes for ./Payload/WeWager.app/AppIcon29x29.png
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/AppIcon60x60@2x.png ... 
+2019-11-18 23:22:53 +0000  2053 bytes for ./Payload/WeWager.app/AppIcon60x60@2x.png
 copying file ./Payload/WeWager.app/AppIcon29x29@2x.png ... 
-2019-11-07 22:32:35 +0000  1767 bytes for ./Payload/WeWager.app/AppIcon29x29@2x.png
+2019-11-18 23:22:53 +0000  1238 bytes for ./Payload/WeWager.app/AppIcon29x29@2x.png
 copying file ./Payload/WeWager.app/AppIcon40x40@3x.png ... 
-2019-11-07 22:32:35 +0000  3364 bytes for ./Payload/WeWager.app/AppIcon40x40@3x.png
+2019-11-18 23:22:53 +0000  2053 bytes for ./Payload/WeWager.app/AppIcon40x40@3x.png
 copying file ./Payload/WeWager.app/Debug.xcconfig ... 
-2019-11-07 22:32:35 +0000  30 bytes for ./Payload/WeWager.app/Debug.xcconfig
+2019-11-18 23:22:53 +0000  106 bytes for ./Payload/WeWager.app/Debug.xcconfig
 copying file ./Payload/WeWager.app/AppIcon29x29~ipad.png ... 
-2019-11-07 22:32:35 +0000  1010 bytes for ./Payload/WeWager.app/AppIcon29x29~ipad.png
+2019-11-18 23:22:53 +0000  993 bytes for ./Payload/WeWager.app/AppIcon29x29~ipad.png
 copying file ./Payload/WeWager.app/AppIcon40x40@2x.png ... 
-2019-11-07 22:32:35 +0000  2389 bytes for ./Payload/WeWager.app/AppIcon40x40@2x.png
+1501 bytes for ./Payload/WeWager.app/AppIcon40x40@2x.png
 copying file ./Payload/WeWager.app/AppIcon29x29@3x.png ... 
-2019-11-07 22:32:35 +0000  2427 bytes for ./Payload/WeWager.app/AppIcon29x29@3x.png
+2019-11-18 23:22:53 +0000  1620 bytes for ./Payload/WeWager.app/AppIcon29x29@3x.png
 copying file ./Payload/WeWager.app/AppIcon60x60@3x.png ... 
-2019-11-07 22:32:35 +0000  4812 bytes for ./Payload/WeWager.app/AppIcon60x60@3x.png
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
-2019-11-07 22:32:35 +0000  923 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
+2019-11-18 23:22:53 +0000  3064 bytes for ./Payload/WeWager.app/AppIcon60x60@3x.png
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:53 +0000  923 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib
 copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
-2019-11-07 22:32:35 +0000  923 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
-2019-11-07 22:32:35 +0000  1831 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
-2019-11-07 22:32:35 +0000  1834 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/Info.plist ... 
-2019-11-07 22:32:35 +0000  258 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/Info.plist
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
-2019-11-07 22:32:35 +0000  2176 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+2019-11-18 23:22:53 +0000  923 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:53 +0000  1831 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib
+copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2019-11-18 23:22:53 +0000  1832 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/WeWager.app/Base.lproj/Main.storyboardc/Info.plist
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:53 +0000  2399 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
 copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
-2019-11-07 22:32:35 +0000  2177 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
-896 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+2019-11-18 23:22:53 +0000  2397 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2019-11-18 23:22:53 +0000  896 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
 copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
-2019-11-07 22:32:35 +0000  896 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
-copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2019-11-07 22:32:35 +0000  258 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-11-18 23:22:53 +0000  896 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/WeWager.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
 copying file ./Payload/WeWager.app/Assets.car ... 
-2019-11-07 22:32:35 +0000  551472 bytes for ./Payload/WeWager.app/Assets.car
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/AppFrameworkInfo.plist ... 
-399 bytes for ./Payload/WeWager.app/AppFrameworkInfo.plist
+2019-11-18 23:22:53 +0000  600160 bytes for ./Payload/WeWager.app/Assets.car
+copying file ./Payload/WeWager.app/AppFrameworkInfo.plist ... 
+2019-11-18 23:22:53 +0000  399 bytes for ./Payload/WeWager.app/AppFrameworkInfo.plist
 copying file ./Payload/WeWager.app/AppIcon40x40@2x~ipad.png ... 
-2389 bytes for ./Payload/WeWager.app/AppIcon40x40@2x~ipad.png
+1501 bytes for ./Payload/WeWager.app/AppIcon40x40@2x~ipad.png
 copying file ./Payload/WeWager.app/AppIcon76x76@2x~ipad.png ... 
-2019-11-07 22:32:35 +0000  4121 bytes for ./Payload/WeWager.app/AppIcon76x76@2x~ipad.png
-2019-11-07 22:32:35 +0000  copying file ./Payload/WeWager.app/iTunesArtwork@3x.png ... 
-2019-11-07 22:32:35 +0000  39282 bytes for ./Payload/WeWager.app/iTunesArtwork@3x.png
+2499 bytes for ./Payload/WeWager.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/WeWager.app/iTunesArtwork@3x.png ... 
+2019-11-18 23:22:53 +0000  39282 bytes for ./Payload/WeWager.app/iTunesArtwork@3x.png
 copying file ./Payload/WeWager.app/WeWager ... 
-2019-11-07 22:32:35 +0000  177344 bytes for ./Payload/WeWager.app/WeWager
-copying file ./Payload/WeWager.app/AppIcon83.5x83.5@2x~ipad.png ... 
-2019-11-07 22:32:35 +0000  4539 bytes for ./Payload/WeWager.app/AppIcon83.5x83.5@2x~ipad.png
+2019-11-18 23:22:53 +0000  177520 bytes for ./Payload/WeWager.app/WeWager
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2019-11-18 23:22:53 +0000  2746 bytes for ./Payload/WeWager.app/AppIcon83.5x83.5@2x~ipad.png
 copying file ./Payload/WeWager.app/AppIcon29x29@2x~ipad.png ... 
-2019-11-07 22:32:35 +0000  1767 bytes for ./Payload/WeWager.app/AppIcon29x29@2x~ipad.png
-copying file ./Payload/WeWager.app/AppIcon40x40~ipad.png ... 
-2019-11-07 22:32:35 +0000  1304 bytes for ./Payload/WeWager.app/AppIcon40x40~ipad.png
+1238 bytes for ./Payload/WeWager.app/AppIcon29x29@2x~ipad.png
+2019-11-18 23:22:53 +0000  copying file ./Payload/WeWager.app/AppIcon40x40~ipad.png ... 
+1047 bytes for ./Payload/WeWager.app/AppIcon40x40~ipad.png
 copying file ./Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib ... 
-2019-11-07 22:32:35 +0000  302640 bytes for ./Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib
+2019-11-18 23:22:53 +0000  302640 bytes for ./Payload/WeWager.app/Frameworks/libswiftObjectiveC.dylib
 copying file ./Payload/WeWager.app/Frameworks/libswiftCore.dylib ... 
-2019-11-07 22:32:36 +0000  16915056 bytes for ./Payload/WeWager.app/Frameworks/libswiftCore.dylib
+2019-11-18 23:22:54 +0000  16915040 bytes for ./Payload/WeWager.app/Frameworks/libswiftCore.dylib
 copying file ./Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib ... 
-2019-11-07 22:32:36 +0000  646864 bytes for ./Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib
+2019-11-18 23:22:54 +0000  646848 bytes for ./Payload/WeWager.app/Frameworks/libswiftCoreGraphics.dylib
 copying file ./Payload/WeWager.app/Frameworks/libswiftDispatch.dylib ... 
-2019-11-07 22:32:36 +0000  1018928 bytes for ./Payload/WeWager.app/Frameworks/libswiftDispatch.dylib
+2019-11-18 23:22:54 +0000  1018912 bytes for ./Payload/WeWager.app/Frameworks/libswiftDispatch.dylib
 copying file ./Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib ... 
-2019-11-07 22:32:36 +0000  253792 bytes for ./Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib
-2019-11-07 22:32:36 +0000  copying file ./Payload/WeWager.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
-2019-11-07 22:32:37 +0000  2084 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources
+2019-11-18 23:22:54 +0000  253792 bytes for ./Payload/WeWager.app/Frameworks/libswiftCoreFoundation.dylib
+2019-11-18 23:22:54 +0000  copying file ./Payload/WeWager.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
+2084 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources
 copying file ./Payload/WeWager.app/Frameworks/Flutter.framework/icudtl.dat ... 
-2019-11-07 22:32:37 +0000  883280 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/icudtl.dat
+2019-11-18 23:22:54 +0000  883280 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/icudtl.dat
 copying file ./Payload/WeWager.app/Frameworks/Flutter.framework/Flutter ... 
-2019-11-07 22:32:37 +0000  13083552 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/Flutter
-2019-11-07 22:32:37 +0000  copying file ./Payload/WeWager.app/Frameworks/Flutter.framework/Info.plist ... 
-963 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/Info.plist
+2019-11-18 23:22:57 +0000  59605824 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/Flutter
+copying file ./Payload/WeWager.app/Frameworks/Flutter.framework/Info.plist ... 
+2019-11-18 23:22:57 +0000  963 bytes for ./Payload/WeWager.app/Frameworks/Flutter.framework/Info.plist
 copying file ./Payload/WeWager.app/Frameworks/App.framework/_CodeSignature/CodeResources ... 
 4132 bytes for ./Payload/WeWager.app/Frameworks/App.framework/_CodeSignature/CodeResources
 copying file ./Payload/WeWager.app/Frameworks/App.framework/App ... 
-2019-11-07 22:32:38 +0000  14008000 bytes for ./Payload/WeWager.app/Frameworks/App.framework/App
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/LICENSE ... 
-2019-11-07 22:32:38 +0000  734884 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/LICENSE
-copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/AssetManifest.json ... 
-2019-11-07 22:32:38 +0000  229 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/AssetManifest.json
+2019-11-18 23:22:57 +0000  14057600 bytes for ./Payload/WeWager.app/Frameworks/App.framework/App
+2019-11-18 23:22:57 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/LICENSE ... 
+2019-11-18 23:22:57 +0000  736544 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/LICENSE
+2019-11-18 23:22:57 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/AssetManifest.json ... 
+229 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/AssetManifest.json
 copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/FontManifest.json ... 
-208 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/FontManifest.json
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf ... 
-2019-11-07 22:32:38 +0000  97680 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf ... 
-2019-11-07 22:32:38 +0000  134640 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/icon.png ... 
-2019-11-07 22:32:38 +0000  25410 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/icon.png
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/Avatar.png ... 
-2019-11-07 22:32:38 +0000  135316 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/Avatar.png
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/Info.plist ... 
+2019-11-18 23:22:57 +0000  208 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/FontManifest.json
+copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf ... 
+2019-11-18 23:22:57 +0000  97680 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+2019-11-18 23:22:57 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf ... 
+2019-11-18 23:22:57 +0000  134640 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf
+2019-11-18 23:22:57 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/icon.png ... 
+2019-11-18 23:22:57 +0000  25410 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/icon.png
+copying file ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/Avatar.png ... 
+2019-11-18 23:22:57 +0000  135316 bytes for ./Payload/WeWager.app/Frameworks/App.framework/flutter_assets/assets/Avatar.png
+2019-11-18 23:22:57 +0000  copying file ./Payload/WeWager.app/Frameworks/App.framework/Info.plist ... 
 794 bytes for ./Payload/WeWager.app/Frameworks/App.framework/Info.plist
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/libswiftDarwin.dylib ... 
-2019-11-07 22:32:38 +0000  369744 bytes for ./Payload/WeWager.app/Frameworks/libswiftDarwin.dylib
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/Frameworks/libswiftFoundation.dylib ... 
-2019-11-07 22:32:38 +0000  8479552 bytes for ./Payload/WeWager.app/Frameworks/libswiftFoundation.dylib
-2019-11-07 22:32:38 +0000  copying file ./Payload/WeWager.app/AppIcon20x20~ipad.png ... 
-531 bytes for ./Payload/WeWager.app/AppIcon20x20~ipad.png
+copying file ./Payload/WeWager.app/Frameworks/libswiftDarwin.dylib ... 
+2019-11-18 23:22:57 +0000  369728 bytes for ./Payload/WeWager.app/Frameworks/libswiftDarwin.dylib
+2019-11-18 23:22:57 +0000  copying file ./Payload/WeWager.app/Frameworks/shared_preferences.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/WeWager.app/Frameworks/shared_preferences.framework/_CodeSignature/CodeResources
+copying file ./Payload/WeWager.app/Frameworks/shared_preferences.framework/shared_preferences ... 
+2019-11-18 23:22:57 +0000  203616 bytes for ./Payload/WeWager.app/Frameworks/shared_preferences.framework/shared_preferences
+2019-11-18 23:22:57 +0000  copying file ./Payload/WeWager.app/Frameworks/shared_preferences.framework/Info.plist ... 
+762 bytes for ./Payload/WeWager.app/Frameworks/shared_preferences.framework/Info.plist
+copying file ./Payload/WeWager.app/Frameworks/libswiftFoundation.dylib ... 
+2019-11-18 23:22:58 +0000  8479552 bytes for ./Payload/WeWager.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/WeWager.app/AppIcon20x20~ipad.png ... 
+2019-11-18 23:22:58 +0000  917 bytes for ./Payload/WeWager.app/AppIcon20x20~ipad.png
 copying file ./Payload/WeWager.app/embedded.mobileprovision ... 
-7537 bytes for ./Payload/WeWager.app/embedded.mobileprovision
+7382 bytes for ./Payload/WeWager.app/embedded.mobileprovision
 copying file ./Payload/WeWager.app/AppIcon20x20@2x~ipad.png ... 
-1304 bytes for ./Payload/WeWager.app/AppIcon20x20@2x~ipad.png
+1047 bytes for ./Payload/WeWager.app/AppIcon20x20@2x~ipad.png
 copying file ./Payload/WeWager.app/Info.plist ... 
 1406 bytes for ./Payload/WeWager.app/Info.plist
 copying file ./Payload/WeWager.app/PkgInfo ... 
 8 bytes for ./Payload/WeWager.app/PkgInfo
 copying file ./Payload/WeWager.app/AppIcon76x76~ipad.png ... 
-2357 bytes for ./Payload/WeWager.app/AppIcon76x76~ipad.png
-2019-11-07 22:32:38 +0000  /usr/bin/ditto exited with 0
-2019-11-07 22:32:38 +0000  Processing step: IDEDistributionAppStoreInformationStep
-2019-11-07 22:32:38 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
-2019-11-07 22:32:38 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
-2019-11-07 22:32:39 +0000  Processing step: IDEDistributionCreateManifestStep
+1479 bytes for ./Payload/WeWager.app/AppIcon76x76~ipad.png
+2019-11-18 23:22:58 +0000  /usr/bin/ditto exited with 0
+2019-11-18 23:22:58 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-11-18 23:22:58 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-11-18 23:22:58 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2019-11-18 23:22:58 +0000  Processing step: IDEDistributionCreateManifestStep
