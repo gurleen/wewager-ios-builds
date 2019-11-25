@@ -11,9 +11,9 @@
 		<key>appURL</key>
 		<string>https://gurleens2000.github.io/wewager-ios-builds/WeWager-Beta.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://gurleens2000.github.io/wewager-ios-builds/appicon57.png</string>
+		<string>https://gurleens2000.github.io/wewager-ios-builds/WeWager-Beta.ipa</string>
 		<key>fullSizeImageURL</key>
-		<string>https://gurleens2000.github.io/wewager-ios-builds/appicon512.png</string>
+		<string>https://gurleens2000.github.io/wewager-ios-builds/WeWager-Beta.ipa</string>
 	</dict>
 	<key>method</key>
 	<string>development</string>

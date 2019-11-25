@@ -99,7 +99,6 @@
 				<dict>
 					<key>architectures</key>
 					<array>
-						<string>armv7</string>
 						<string>arm64</string>
 					</array>
 					<key>certificate</key>
@@ -111,8 +110,28 @@
 						<key>type</key>
 						<string>Apple Development</string>
 					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>7S7N7BN7YZ.com.realdealsports.wewager.OneSignalNotificationServiceExtension</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>7S7N7BN7YZ</string>
+						<key>com.apple.security.application-groups</key>
+						<array>
+							<string>group.com.realdealsports.wewager.onesignal</string>
+						</array>
+						<key>get-task-allow</key>
+						<true/>
+					</dict>
 					<key>name</key>
-					<string>shared_preferences.framework</string>
+					<string>OneSignalNotificationServiceExtension.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>019b0d12-f250-4537-a409-125c1c7f8274</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: com.realdealsports.wewager.OneSignalNotificationServiceExtension</string>
+					</dict>
 					<key>team</key>
 					<dict>
 						<key>id</key>
@@ -125,24 +144,26 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>7S7N7BN7YZ.com.realdeal.wewager</string>
+				<string>7S7N7BN7YZ.com.realdealsports.wewager</string>
+				<key>aps-environment</key>
+				<string>development</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>7S7N7BN7YZ</string>
+				<key>com.apple.security.application-groups</key>
+				<array>
+					<string>group.com.realdealsports.wewager.onesignal</string>
+				</array>
 				<key>get-task-allow</key>
 				<true/>
-				<key>keychain-access-groups</key>
-				<array>
-					<string>7S7N7BN7YZ.com.realdeal.wewager</string>
-				</array>
 			</dict>
 			<key>name</key>
 			<string>Runner.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>a03cabcc-0f6b-4497-9a37-918610af9a90</string>
+				<string>2ad213a7-d6a5-4666-a193-14655406e7fe</string>
 				<key>name</key>
-				<string>iOS Team Provisioning Profile: *</string>
+				<string>iOS Team Provisioning Profile: com.realdealsports.wewager</string>
 			</dict>
 			<key>team</key>
 			<dict>
